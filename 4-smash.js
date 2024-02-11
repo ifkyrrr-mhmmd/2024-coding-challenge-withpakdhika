@@ -20,6 +20,6 @@ function smash(words) {
 // buatkan aku sebuah variabel kosong
 // buatkan aku sebuah pengulangan, yang dimana array akan ditambahkan sesuai dengan panjang array
 // buat pengkondisian, dimana jika i tidak sama dengan panjang array dikurang satu, maka array akan dberi spasi (untuk array terakhir tidak diberi)
-// kembalikan hasil awal
+// kembalikan hasil awal (return)
 
 console.log(smash(["hello", "amazing", "world"]));
