@@ -1,3 +1,6 @@
+// WPU Coding Challenge With Pak Dhika
+// 6/366
+
 // function DNAtoRNA(dna) {
 //   let rna = "";
 //   for (i = 0; i < dna.length; i++) {
@@ -11,4 +14,5 @@ const DNAtoRNA = (dna) =>
     .split("")
     .map((el) => (el === "T" ? "U" : el))
     .join("");
+
 console.log(DNAtoRNA("GCATTTT"));
