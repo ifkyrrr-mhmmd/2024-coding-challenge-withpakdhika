@@ -10,13 +10,17 @@
 //   return hasil;
 // };
 
-var countSheep = function (num) {
-  let hasil = "";
-  for (i = 1; i <= num; i++) {
-    hasil += `${i} sheep...`;
-  }
+// var countSheep = function (num) {
+//   let hasil = "";
+//   for (i = 1; i <= num; i++) {
+//     hasil += `${i} sheep...`;
+//   }
 
-  return hasil;
+//   return hasil;
+// };
+
+var countSheep = function (num) {
+  return [...Array(num)].map((el, i) => `${i + 1} sheep...`).join("");
 };
 
 console.log(countSheep(3));
