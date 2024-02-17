@@ -27,8 +27,8 @@
 // const max = (list) => list.sort((a, b) => b - a)[0];
 
 // menggunakan fungsi Math
-// const min = (list) => Math.min(...list);
-// const max = (list) => Math.max(...list);
+const min = (list) => Math.min(...list);
+const max = (list) => Math.max(...list);
 
 console.log(min([-52, 56, 30, 29, -54, 0, -110]));
 console.log(max([-53, 57, 30, 29, -54, 0, -110]));
